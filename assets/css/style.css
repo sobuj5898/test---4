@@ -1,0 +1,130 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.bg-1{
+	background-image:url(../image/bg-1.jpg);
+	background-size:cover;
+	height:100vh;
+	width:100%;
+	display:table;
+	background-attachment:fixed;
+}
+.bg-2{
+	background-image:url(../image/bg-2.jpg);
+	background-size:cover;
+	height:100vh;
+	width:100%;
+	display:table;
+	background-attachment:fixed;
+}
+.bg-3{
+	background-image:url(../image/bg-3.jpg);
+	background-size:cover;
+	height:100vh;
+	width:100%;
+	display:table;
+	background-attachment:fixed;
+}
+.table-cell{
+	text-align:center;
+	vertical-align:middle;
+	display:table-cell;
+	width:100%;
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.overllay {
+    position: relative;
+    z-index:  1;
+}
+
+.overllay:after {
+    position:  absolute;
+    content:  "";
+    width:  100%;
+    height:  100%;
+    background: #000;
+    top: 0;
+    left:  0;
+    opacity:  .6;
+    z-index: -1;
+}
+
+.single-service-item {
+    padding: 56px;
+    color: #fff;
+    text-align:  center;
+    background: #333;
+}
+
+.single-service-item h4 {
+    font-weight: 100;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.single-service-item i.fa {
+    font-size: 71px;
+}
+
+.botton {
+    color:  #fff;
+    display:  inline-block;
+    padding-top: 16px;
+    font-size: 15px;
+}
+
+.section-2-content h2 {
+    color:  #fff;
+    font-weight: 700;
+    font-size: 35px;
+    text-transform:  uppercase;
+    font-family:  -webkit-pictograph;
+	
+}
+
+.section-2-content a {background:  #fff;border-radius: 50%;font-size: 23px;display:  inline-block;height:  100px;width:  100px;line-height: 100px;margin-top:  20px;}
+
+.section-2-content {
+    text-align:  center;
+	transition:.5s;
+}
+
+.section-2-content p {
+    color:  #fff;
+    font-size: 17px;
+    font-weight: 600;
+    margin-top: 37px;
+}
